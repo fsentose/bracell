@@ -1,3 +1,8 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Varal de Pedidos RGE</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -169,6 +174,8 @@ footer small{opacity:.75}
 @media (max-width:760px){.erer .wrap{grid-template-columns:minmax(0,1fr)}.stats{gap:8px}.stat{padding:10px 8px}.stat span{font-size:12px}.tab{font-size:18px;padding:8px 14px}.stat strong{font-size:34px}}
 
 </style>
+</head>
+<body>
 
 <header class="top">
   <div class="wrap">
@@ -211,11 +218,11 @@ footer small{opacity:.75}
 <section class="block" id="como">
   <div class="wrap">
     <div class="eyebrow">Como participar</div>
-    <h2>Três passos até o varal</h2>
+    <h2>Três passos para doar</h2>
     <div class="passos">
-      <div class="passo"><div class="num">1</div><h3>Escolha um pedido</h3><p>Vá até o varal e pegue o cartão de um pedido. Ele indica o presente e a idade da criança.</p></div>
-      <div class="passo"><div class="num">2</div><h3>Faça a inscrição</h3><p>Leia o QR Code do cartaz ou use o botão desta página para registrar o pedido escolhido.</p></div>
-      <div class="passo"><div class="num">3</div><h3>Entregue a doação</h3><p>Leve o presente até 31/10 na entrada próxima ao relógio de ponto, com o cartão do pedido.</p></div>
+      <div class="passo"><div class="num">1</div><h3>Faça a inscrição</h3><p>Leia o QR Code do cartaz ou use o botão desta página para se inscrever no formulário online.</p></div>
+      <div class="passo"><div class="num">2</div><h3>Escolha e compre o presente</h3><p>Veja as sugestões de livros e brinquedos nesta página, escolha o seu presente e faça a compra.</p></div>
+      <div class="passo"><div class="num">3</div><h3>Entregue a doação</h3><p>Leve o presente até 31/10 na entrada próxima ao relógio de ponto.</p></div>
     </div>
   </div>
 </section>
@@ -273,7 +280,7 @@ footer small{opacity:.75}
       </div>
     </div>
     <div class="grid books" id="grid"></div>
-    <p class="aviso">Segmento indicado é uma sugestão para orientar a escolha; o pedido do varal sempre prevalece. Confira preço, avaliação do vendedor e <b>prazo de entrega</b>: o presente precisa chegar a tempo de ser entregue até 31 de outubro. Para compras online, prefira pedir até 24/10.</p>
+    <p class="aviso">Segmento indicado é uma sugestão para orientar a escolha; o pedido registrado na inscrição sempre prevalece. Confira preço, avaliação do vendedor e <b>prazo de entrega</b>: o presente precisa chegar a tempo de ser entregue até 31 de outubro. Para compras online, prefira pedir até 24/10.</p>
   </div>
 </section>
 
@@ -286,7 +293,7 @@ footer small{opacity:.75}
         <li><span><b>Livro novo ou em ótimo estado.</b> Ele vai circular entre muitas turmas na biblioteca volante.</span></li>
         <li><span><b>Literatura afro-brasileira e indígena</b> é prioridade do acervo indicado. Se o seu pedido for um livro, procure o título exato na vitrine.</span></li>
         <li><span><b>Capa dura e papel firme</b> duram mais nas mãos de crianças de 5 a 7 anos.</span></li>
-        <li><span><b>Respeite a idade do cartão.</b> Textos curtos e bem ilustrados para os menores; histórias mais longas e quadrinhos para os maiores.</span></li>
+        <li><span><b>Respeite a faixa etária.</b> Textos curtos e bem ilustrados para os menores; histórias mais longas e quadrinhos para os maiores.</span></li>
         <li><span><b>Brinquedo com selo do Inmetro</b> e indicação de faixa etária na embalagem.</span></li>
         <li><span><b>Doação coletiva vale.</b> A equipe pode juntar recursos e assumir pedidos maiores, como bingos de 25 cartelas, tatame EVA ou painel psicomotor.</span></li>
       </ul>
@@ -302,8 +309,8 @@ footer small{opacity:.75}
       <div class="msg" id="msg" tabindex="0">Pessoal, estamos no Varal de Pedidos do Founder’s Day RGE! 📚🎁
 Vamos montar uma biblioteca e uma brinquedoteca para os 213 estudantes da Escola Municipal Maria Feijó, em Alagoinhas (Educação Infantil ao 5º ano, 5 a 13 anos).
 
-1️⃣ Escolha um pedido no varal
-2️⃣ Leia o QR Code do cartaz e faça sua inscrição
+1️⃣ Faça sua inscrição pelo QR Code do cartaz ou pelo formulário online
+2️⃣ Escolha e compre o presente
 3️⃣ Entregue a doação na entrada próxima ao relógio de ponto
 
 📅 Prazo: até 31 de outubro.
@@ -527,3 +534,6 @@ document.getElementById("copiar").addEventListener("click",()=>{
  try{navigator.clipboard.writeText(t).then(()=>{ok.textContent="Copiado";ok.hidden=false;setTimeout(()=>ok.hidden=true,2500)},sel)}catch(e){sel()}
 });
 </script>
+
+</body>
+</html>
